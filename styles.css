@@ -1,0 +1,137 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Logo */
+.logo img {
+  width: 400px;
+  height: auto;
+}
+
+/* Header */
+h1 {
+  font-size: 28px;
+  margin-top: 20px;
+  color: #000000;
+}
+
+/* Upload Form */
+.upload-form {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #ffffff;
+  color: #000000;
+  margin: auto;
+  /* Center the form horizontally */
+  margin-top: 50px;
+  /* Add some top margin */
+}
+
+/* Upload Label */
+.upload-label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+
+/* File Input */
+.file-input {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Drag and Drop Area */
+.drag-drop-area {
+  border: 2px dashed #000000;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: transparent;
+  /* Change the background color to transparent */
+  border-radius: 8px;
+}
+
+.drag-drop-area.dragover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Font Awesome Icon */
+.fas {
+  font-size: 36px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+/* Submit Button */
+.submit-button {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+  background-color: #333333;
+}
+
+/* View Button */
+.view-button {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #000000;
+}
+
+.navbar-dark .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-color: #ffffff;
+}
+
+/* Upload Success Message */
+.upload-success {
+  color: green;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
