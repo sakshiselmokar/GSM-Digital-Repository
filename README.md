@@ -14,6 +14,8 @@ GSM Digital Repository is a simple web application that allows users to upload d
 - **Backend**: PHP
 - **Database**: MySQL
 
+## demo-link: https://sakshiselmokar.github.io/GSM-Digital-Repository/  
+
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
